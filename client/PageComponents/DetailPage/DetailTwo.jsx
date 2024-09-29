@@ -91,7 +91,7 @@ const DetailTwo = ({
                       {isLoading ? (
                         <Loader />
                       ) : (
-                        <img src={property?.image} alt="Nft_Profile" />
+                        <img href="https://tnreginet.gov.in/portal/" src={property?.image} alt="Nft_Profile" />
                       )}
                     </div>
                   </div>
