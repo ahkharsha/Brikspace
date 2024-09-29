@@ -242,7 +242,7 @@ const CreateTwo = () => {
                           class="name"
                           type="text"
                           required
-                          placeholder="propertyTitle"
+                          placeholder="Title"
                           onChange={(e) =>
                             handleFormFieldChange("propertyTitle", e)
                           }
@@ -287,7 +287,7 @@ const CreateTwo = () => {
                         <textarea
                           id="description"
                           class="text-area"
-                          placeholder="description"
+                          placeholder="Address"
                           onChange={(e) =>
                             handleFormFieldChange("description", e)
                           }
@@ -299,14 +299,14 @@ const CreateTwo = () => {
                   <div class="col-lg-6">
                     <div class="collection-single-wized">
                       <label for="earning" class="title">
-                        Price
+                        Property Price
                       </label>
                       <div class="create-collection-input">
                         <input
                           id="earning"
                           class="url"
                           type="number"
-                          placeholder="price"
+                          placeholder="Price"
                           onChange={(e) => handleFormFieldChange("price", e)}
                         />
                       </div>
