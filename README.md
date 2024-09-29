@@ -135,8 +135,8 @@ Your application will be up and running at `http://localhost:3000` 🚀
 
 ### **Phase 2: Beta Launch**
 
+- ✅ Integrate Garden SDK
 - ✅ Deploy on Polygon Amoy Testnet Testnet
-- ✅ Conduct security audits
 - ✅ Launch beta version for selected users
 
 ### **Phase 3: Public Launch**
@@ -159,7 +159,7 @@ For any inquiries or support, feel free to reach out:
 
 - **Email**: [ahkharsha@gmail.com](mailto:ahkharsha@gmail.com)
 - **LinkedIn**: [Harsha Kumar](https://www.linkedin.com/in/harsha-kumar-a-271a76203/)
-- **Project Website**: [Brikspace](https://bri-x-change.vercel.app/)
+- **Project Website**: [Brikspace](https://brikspace.vercel.app/)
 
 ---
 
