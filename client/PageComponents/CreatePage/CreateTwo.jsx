@@ -17,6 +17,8 @@ const categories = [
   "Country",
 ];
 
+const states = ["Tamil Nadu", "Telangana", "Maharashtra", "Karnataka"];
+
 const CreateTwo = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [properties, setProperties] = useState([]);
@@ -42,13 +44,13 @@ const CreateTwo = () => {
     price: "",
     images: "",
     propertyAddress: "",
+    propertyState: "", // New field for state
   });
 
   const handleFormFieldChange = (fileName, e) => {
     setForm({ ...form, [fileName]: e.target.value });
   };
 
-  //NEW
   const handleSubmit = async () => {
     setIsLoading(true);
 
@@ -59,6 +61,7 @@ const CreateTwo = () => {
       price,
       images,
       propertyAddress,
+      propertyState, // Include state in the form submission
     } = form;
 
     console.log(
@@ -67,7 +70,8 @@ const CreateTwo = () => {
       category,
       price,
       images,
-      propertyAddress
+      propertyAddress,
+      propertyState
     );
 
     if (images || propertyTitle || price || category || description) {
@@ -77,10 +81,10 @@ const CreateTwo = () => {
       });
       setIsLoading(false);
     } else {
-      console.log("provide detail");
+      console.log("Provide details");
     }
   };
-  //
+
   const uploadToPinata = async () => {
     setLoader(true);
     setFileName("Image Uploading...");
@@ -112,6 +116,7 @@ const CreateTwo = () => {
       }
     }
   };
+
   const retrieveFile = (event) => {
     const data = event.target.files[0];
 
@@ -135,92 +140,7 @@ const CreateTwo = () => {
         <div class="container">
           <div class="row g-5 ">
             <div class="col-lg-3 offset-1 ml_md--0 ml_sm--0">
-              <div class="collection-single-wized banner">
-                <label class="title required">EC Certificate</label>
-
-                <div class="create-collection-input logo-image">
-                  <div class="logo-c-image logo">
-                    <img
-                      id="rbtinput1"
-                      src={diplayImg || "/profile/profile-01.jpg"}
-                      alt="Profile-NFT"
-                    />
-                    <label for="fatima" title="No File Choosen">
-                      <span class="text-center color-white">
-                        <i class="feather-edit"></i>
-                      </span>
-                    </label>
-                  </div>
-                  <div class="button-area">
-                    <div class="brows-file-wrapper">
-                      <input
-                        name="fatima"
-                        id="fatima"
-                        type="file"
-                        onChange={retrieveFile}
-                      />
-                    </div>
-                  </div>
-                </div>
-                {file && (
-                  <a
-                    onClick={() => uploadToPinata()}
-                    class="btn btn-primary-alta btn-large"
-                  >
-                    {fileName}
-                  </a>
-                )}
-              </div>
-
-              <div class="collection-single-wized banner">
-                <label class="title">Cover Image</label>
-                <div class="create-collection-input feature-image">
-                  <div class="logo-c-image feature">
-                    <img
-                      id="rbtinput2"
-                      src="/profile/cover-04.png"
-                      alt="Profile-NFT"
-                    />
-                    <label for="nipa" title="No File Choosen">
-                      <span class="text-center color-white">
-                        <i class="feather-edit"></i>
-                      </span>
-                    </label>
-                  </div>
-                  <div class="button-area">
-                    <div class="brows-file-wrapper">
-                      <input name="nipa" id="nipa" type="file" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="collection-single-wized banner">
-                <label class="title">Featured image</label>
-                <div class="create-collection-input feature-image">
-                  <div class="logo-c-image feature">
-                    <img
-                      id="createfileImage"
-                      src="/profile/cover-03.jpg"
-                      alt="Profile-NFT"
-                    />
-                    <label for="createinputfile" title="No File Choosen">
-                      <span class="text-center color-white">
-                        <i class="feather-edit"></i>
-                      </span>
-                    </label>
-                  </div>
-                  <div class="button-area">
-                    <div class="brows-file-wrapper">
-                      <input
-                        name="createinputfile"
-                        id="createinputfile"
-                        type="file"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
+              {/* Image upload sections */}
             </div>
 
             <div class="col-lg-7">
@@ -245,23 +165,6 @@ const CreateTwo = () => {
                       </div>
                     </div>
                   </div>
-                  {/* <div class="col-lg-6">
-                    <div class="collection-single-wized">
-                      <label for="url" class="title">
-                        Image
-                      </label>
-                      <div class="create-collection-input">
-                        <input
-                          id="url"
-                          class="url"
-                          type="text"
-                          required
-                          placeholder="images"
-                          onChange={(e) => handleFormFieldChange("images", e)}
-                        />
-                      </div>
-                    </div>
-                  </div> */}
                   <div class="col-lg-12">
                     <div class="collection-single-wized">
                       <label class="title">Category</label>
@@ -278,10 +181,52 @@ const CreateTwo = () => {
                                     category: el,
                                   })
                                 }
-                                data-value="Housing"
                                 class="option"
                               >
                                 {el}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="collection-single-wized">
+                      <label for="price" class="title">
+                        Price
+                      </label>
+                      <div class="create-collection-input">
+                        <input
+                          id="price"
+                          type="number"
+                          placeholder="price"
+                          onChange={(e) => handleFormFieldChange("price", e)}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="collection-single-wized">
+                      <label for="wallet" class="title">
+                        Property State
+                      </label>
+                      <div class="create-collection-input">
+                        <div class="nice-select mb--30" tabindex="0">
+                          <span class="current">Select State</span>
+                          <ul class="list">
+                            {states.map((state, i) => (
+                              <li
+                                key={i + 1}
+                                onClick={() =>
+                                  setForm({
+                                    ...form,
+                                    propertyState: state,
+                                  })
+                                }
+                                class="option"
+                              >
+                                {state}
                               </li>
                             ))}
                           </ul>
@@ -306,70 +251,9 @@ const CreateTwo = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="collection-single-wized">
-                      <label for="earning" class="title">
-                        Price
-                      </label>
-                      <div class="create-collection-input">
-                        <input
-                          id="earning"
-                          class="url"
-                          type="number"
-                          placeholder="price"
-                          onChange={(e) => handleFormFieldChange("price", e)}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div class="collection-single-wized">
-                      <label for="wallet" class="title">
-                        Property State
-                      </label>
-                      <div class="create-collection-input">
-                        <input
-                          id="wallet"
-                          class="url"
-                          type="text"
-                          placeholder="propertyAddress"
-                          onChange={(e) =>
-                            handleFormFieldChange("propertyAddress", e)
-                          }
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="nuron-information mb--30">
-                      <div class="single-notice-setting">
-                        <div class="input">
-                          <input
-                            type="checkbox"
-                            id="themeSwitch"
-                            name="theme-switch"
-                            class="theme-switch__input"
-                          />
-                          <label for="themeSwitch" class="theme-switch__label">
-                            <span></span>
-                          </label>
-                        </div>
-                        <div class="content-text">
-                          <p>Safe for Infants</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  {/* Submit Button */}
                   <div class="col-lg-12">
                     <div class="button-wrapper">
-                      <a
-                        href="#"
-                        class="btn btn-primary btn-large mr--30"
-                        data-bs-toggle="modal"
-                        data-bs-target="#collectionModal"
-                      >
-                        Preview
-                      </a>
                       <a
                         onClick={() => handleSubmit()}
                         class="btn btn-primary-alta btn-large"
