@@ -4,7 +4,7 @@
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/dishadaniellol/Brikspace)
 [![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-blue)](https://www.linkedin.com/in/harsha-kumar-a-271a76203/)
 
-<img src="https://github.com/user-attachments/assets/1c74e33d-9a29-4314-8abe-df38c1c63f10" alt="logo-white" width="40"/>
+<img src="https://github.com/user-attachments/assets/1cbac393-80d1-431a-8d0a-fe2255f1bcf5" alt="logo-white" width="40"/>
 
 ---
 
