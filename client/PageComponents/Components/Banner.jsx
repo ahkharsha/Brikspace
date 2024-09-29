@@ -51,7 +51,7 @@ const Banner = () => {
                   </a>
                   <div class="read-wrapper">
                     <h5>
-                      <a>@CryptoVentureInnovators</a>
+                      <a>@TheCodeWarriors</a>
                     </h5>
                     <span>Join Membership</span>
                   </div>
@@ -83,7 +83,7 @@ const Banner = () => {
                       <h5 class="title">
                         <Link href="#">{el.name}</Link>
                       </h5>
-                      <span>{el.worth} POL</span>
+                      <span>{el.worth} MATIC</span>
                     </div>
                   </div>
                 </div>

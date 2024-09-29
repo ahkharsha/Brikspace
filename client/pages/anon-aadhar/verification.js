@@ -208,7 +208,7 @@ export default function AadhaarVerification({ onVerified }) {
             variant="outlined"
             color="primary"
             startIcon={<GitHubIcon />}
-            href="https://github.com/ahkharsha/Brikspace"
+            href="https://github.com/dishadaniellol/Brikspace"
             target="_blank"
             rel="noopener noreferrer"
             sx={{

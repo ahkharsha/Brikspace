@@ -2,7 +2,9 @@ import React from "react";
 
 //INTERNAL IMPORT
 import { Header, Footer, Copyright } from "../PageComponents/Components";
-import { SwapMain } from "../PageComponents/SwapPage";
+import {
+  SwapMain,
+} from "../PageComponents/SwapPage";
 
 const swap = () => {
   return (

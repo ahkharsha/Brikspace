@@ -136,7 +136,7 @@ const CreateTwo = () => {
           <div class="row g-5 ">
             <div class="col-lg-3 offset-1 ml_md--0 ml_sm--0">
               <div class="collection-single-wized banner">
-                <label class="title required">Property image</label>
+                <label class="title required">EC Certificate</label>
 
                 <div class="create-collection-input logo-image">
                   <div class="logo-c-image logo">
@@ -292,7 +292,7 @@ const CreateTwo = () => {
                   <div class="col-lg-12">
                     <div class="collection-single-wized">
                       <label for="description" class="title">
-                        Description
+                        Property Address
                       </label>
                       <div class="create-collection-input">
                         <textarea
@@ -325,7 +325,7 @@ const CreateTwo = () => {
                   <div class="col-lg-6">
                     <div class="collection-single-wized">
                       <label for="wallet" class="title">
-                        Property Address
+                        Property State
                       </label>
                       <div class="create-collection-input">
                         <input
@@ -355,7 +355,7 @@ const CreateTwo = () => {
                           </label>
                         </div>
                         <div class="content-text">
-                          <p>Explicit & sensitive content</p>
+                          <p>Safe for Infants</p>
                         </div>
                       </div>
                     </div>
