@@ -91,7 +91,9 @@ const DetailTwo = ({
                       {isLoading ? (
                         <Loader />
                       ) : (
-                        <img href="https://tnreginet.gov.in/portal/" src={property?.image} alt="Nft_Profile" />
+                        <a href="https://tnreginet.gov.in/portal/" target="_blank">
+                          <img src={property?.image} alt="Nft_Profile" />
+                        </a>
                       )}
                     </div>
                   </div>
@@ -184,7 +186,7 @@ const DetailTwo = ({
               </div>
 
               <h6 class="title-name">
-                #{property?.productID} Portal , Info bellow
+                #{property?.productID} Portal , Info below
               </h6>
               <div class="catagory-collection">
                 <div class="catagory">
