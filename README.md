@@ -1,31 +1,14 @@
 # 🏢 **Brikspace** - Invest Smart, Own a part
 
-[![Deployment Status](https://img.shields.io/badge/Deployment-Live-brightgreen)](https://brikspace.vercel.app/)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/dishadaniellol/Brikspace)
+[![Deployment Status](https://img.shields.io/badge/Deployment-Live-brightgreen)](https://brik-space.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/ahkharsha/Brikspace)
 [![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-blue)](https://www.linkedin.com/in/harsha-kumar-a-271a76203/)
 
 <img src="https://github.com/user-attachments/assets/1c74e33d-9a29-4314-8abe-df38c1c63f10" alt="logo-white" width="40"/>
 
 ---
 
-Brikspace is an innovative blockchain-based platform designed to revolutionize real estate transactions by leveraging the power of the Amoy Testnet and MATIC tokens. Our platform enables users to tokenize, trade, and invest in real estate assets securely and transparently.
-
----
-
-## 🚀 **Deployment**
-
-The platform is live and can be accessed at:  
-<br>**🔗 [Brikspace Testnet (Deployed) - brikspace.vercel.app](https://brikspace.vercel.app/)**<br><br>
-
----
-
-## 📜 **Smart Contract**
-
-The Smart Contract is deployed on the Polygon Amoy Testnet Testnet at [0x94037Dff7be2e2Aa8d1B5f62C76CF6581e0D8FC0](https://www.oklink.com/amoy/address/0x94037Dff7be2e2Aa8d1B5f62C76CF6581e0D8FC0).  
-Visit the link below to view it in explorer!
-
-**🔗 [Brikspace Smart Contract](https://www.oklink.com/amoy/address/0x94037Dff7be2e2Aa8d1B5f62C76CF6581e0D8FC0)**
-
+Brikspace is an innovative blockchain-based platform designed to revolutionize real estate transactions by leveraging the power of the Polygon network and MATIC tokens. Our platform enables users to tokenize, trade, and invest in real estate assets securely and transparently.
 
 ---
 
@@ -37,10 +20,7 @@ Visit the link below to view it in explorer!
 - [🛠 Getting Started](#-getting-started)
 - [📖 Usage](#-usage)
 - [🛤 Roadmap](#-roadmap)
-- [📜 License](#-license)
 - [📞 Contact](#-contact)
-- [🚀 Deployment](#-deployment)
-- [📄 Documentation](#-documentation)
 
 ---
 
@@ -62,13 +42,11 @@ Our vision is to democratize real estate investment by leveraging the power of b
 
 ## ⚙️ **Technologies Used**
 
-- **Blockchain**: Polygon Amoy Testnet Testnet
+- **Blockchain**: Polygon Network (Layer 2 solution on Ethereum)
 - **Token**: MATIC
 - **Smart Contracts**: Solidity
 - **Frontend**: Next.js, CSS
 - **Privacy**: Anon Aadhaar SDK
-- **Token Swaps**: Garden SDK
-- **Deployment**: Vercel
 
 ---
 
@@ -77,25 +55,28 @@ Our vision is to democratize real estate investment by leveraging the power of b
 ### 🛠️ **Installation**
 
 1. **Clone the Repository**
-    ```bash
-    git clone https://github.com/dishadaniellol/Brikspace.git
-    cd Brikspace
-    ```
+
+   ```bash
+   git clone https://github.com/dishadaniellol/Brikspace.git
+   cd Brikspace
+   ```
 
 2. **Navigating to client**
-    ```bash
-    cd client
-    ```
+
+   ```bash
+   cd client
+   ```
 
 3. **Installing dependencies**
+
    ```bash
     npm i
-    ```
+   ```
 
 4. **Run the Application**
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm run dev
+   ```
 
 Your application will be up and running at `http://localhost:3000` 🚀
 
@@ -115,7 +96,7 @@ Your application will be up and running at `http://localhost:3000` 🚀
 
 ### **3. Conduct Transactions**
 
-- Buy and sell fractional property tokens using MATIC on the Polygon Amoy Testnet Testnet.
+- Buy and sell fractional property tokens using MATIC on the Polygon blockchain.
 - Enjoy low transaction fees and fast confirmation times.
 
 ### **4. Staking and Rewards**
@@ -135,13 +116,13 @@ Your application will be up and running at `http://localhost:3000` 🚀
 
 ### **Phase 2: Beta Launch**
 
-- ✅ Deploy on Polygon Amoy Testnet Testnet
-- ✅ Conduct security audits
-- ✅ Launch beta version for selected users
+- ✅ Deploy on Polygon Amoy testnet
+- ⬜ Integrate Garden Finance Swap (Will mostly be done before the next evaluation at 10:30)
+- ⬜ Launch beta version for selected users
 
 ### **Phase 3: Public Launch**
 
-- ⬜ Deploy on Polygon Amoy Testnet Mainnet
+- ⬜ Deploy on Polygon mainnet
 - ⬜ Launch marketing campaign
 - ⬜ Introduce staking and rewards features
 
@@ -153,8 +134,8 @@ For any inquiries or support, feel free to reach out:
 
 - **Email**: [ahkharsha@gmail.com](mailto:ahkharsha@gmail.com)
 - **LinkedIn**: [Harsha Kumar](https://www.linkedin.com/in/harsha-kumar-a-271a76203/)
-- **Project Website**: [Brikspace](https://bri-x-change.vercel.app/)
+- **Project Website**: [Brikspace](https://brik-space.vercel.app/)
 
 ---
 
-*Made with ❤️ by the Brikspace team.*
+_Made with ❤️ by The Code Warriors team._
