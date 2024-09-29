@@ -22,10 +22,11 @@ const DetailTwo = ({
       case "Maharashtra":
         return "https://freesearchigrservice.maharashtra.gov.in/";
       case "Goa":
-      case "Telangana":
         return "https://goaonline.gov.in/Appln/UIL/propertyregister";
+      case "Telangana":
+        return "https://registration.telangana.gov.in/ec.htm";
       default:
-        return "#"; // Default to no redirection if address doesn't match
+        return "#";
     }
   };
 
