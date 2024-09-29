@@ -387,10 +387,23 @@ const DetailTwo = ({
                               {property?.address}
                             </span>
                           </div>
+                          <div className="pd-property-inner">
+                            <h6 className="pd-property-title"> EC Verification Link</h6>
+                            <span className="color-white value">
+                              <a 
+                                href={getRedirectUrl(property?.address)} 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="color-white"
+                              >
+                                {getRedirectUrl(property?.address)}
+                              </a>
+                            </span>
+                          </div>
                           <div class="pd-property-inner">
                             <h6 class="pd-property-title">
                               {" "}
-                              Price 18 Decimal Points: {property?.price} MATIC
+                              Price: {property?.price} MATIC
                             </h6>
                           </div>
                           <div class="pd-property-inner">

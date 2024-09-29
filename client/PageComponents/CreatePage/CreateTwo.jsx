@@ -315,29 +315,19 @@ const CreateTwo = () => {
 
                   <div class="col-lg-6">
                     <div class="collection-single-wized">
-                      <label for="state" class="title">
+                      <label for="wallet" class="title">
                         Property State
                       </label>
                       <div class="create-collection-input">
-                        <div class="nice-select mb--30" tabindex="0">
-                          <span class="current">Select State</span>
-                          <ul class="list">
-                            {states.map((state, i) => (
-                              <li
-                                key={i + 1}
-                                onClick={() =>
-                                  setForm({
-                                    ...form,
-                                    state: state,
-                                  })
-                                }
-                                class="option"
-                              >
-                                {state}
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
+                        <input
+                          id="wallet"
+                          class="url"
+                          type="text"
+                          placeholder="State"
+                          onChange={(e) =>
+                            handleFormFieldChange("propertyAddress", e)
+                          }
+                        />
                       </div>
                     </div>
                   </div>
