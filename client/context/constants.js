@@ -1,7 +1,7 @@
 import realEstate from "./RealEstate.json";
 require("dotenv").config();
 
-export const REAL_ESTATE_ADDRESS = "0x94037Dff7be2e2Aa8d1B5f62C76CF6581e0D8FC0";
+export const REAL_ESTATE_ADDRESS = "0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb";
 export const REAL_ESTATE_ABI = realEstate.abi;
 
 export const PINATA_API_KEY = "da212708ca61ceb1b91d";
@@ -108,6 +108,17 @@ const networks = {
     rpcUrls: ["https://rpc.open-campus-codex.gelato.digital"],
     blockExplorerUrls: ["https://opencampus-codex.blockscout.com"],
   },
+  neox_testnet: {
+    chainId: `0x${Number(12227332).toString(16)}`,
+    chainName: "NeoX Testnet T4",
+    nativeCurrency: {
+      name: "NeoX",
+      symbol: "GAS",
+      decimals: 18,
+    },
+    rpcUrls: ["https://12227332.rpc.thirdweb.com"],
+    blockExplorerUrls: ["https://xexplorer.neo.org/"],
+  },
 };
 
 const changeNetwork = async ({ networkName }) => {
@@ -125,10 +136,10 @@ const changeNetwork = async ({ networkName }) => {
     console.log(err.message);
   }
 };
-export const ACTIVE_NETWORK = "polygon_amoy";
+export const ACTIVE_NETWORK = "neox_testnet";
 
 export const handleNetworkSwitch = async () => {
-  const networkName = "polygon_amoy";
+  const networkName = "neox_testnet";
   const network = await changeNetwork({ networkName });
   return networkName;
 };

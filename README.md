@@ -8,7 +8,7 @@
 
 ---
 
-Brikspace is an innovative blockchain-based platform designed to revolutionize real estate transactions by leveraging the power of the Amoy Testnet and MATIC tokens. Our platform enables users to tokenize, trade, and invest in real estate assets securely and transparently.
+Brikspace is an innovative blockchain-based platform designed to revolutionize real estate transactions by leveraging the power of the Amoy Testnet and GAS tokens. Our platform enables users to tokenize, trade, and invest in real estate assets securely and transparently.
 
 ---
 
@@ -63,7 +63,7 @@ Our vision is to democratize real estate investment by leveraging the power of b
 ## ⚙️ **Technologies Used**
 
 - **Blockchain**: Polygon Amoy Testnet Testnet
-- **Token**: MATIC
+- **Token**: GAS
 - **Smart Contracts**: Solidity
 - **Frontend**: Next.js, CSS
 - **Privacy**: Anon Aadhaar SDK
@@ -115,12 +115,12 @@ Your application will be up and running at `http://localhost:3000` 🚀
 
 ### **3. Conduct Transactions**
 
-- Buy and sell fractional property tokens using MATIC on the Polygon Amoy Testnet Testnet.
+- Buy and sell fractional property tokens using GAS on the Polygon Amoy Testnet Testnet.
 - Enjoy low transaction fees and fast confirmation times.
 
 ### **4. Staking and Rewards**
 
-- Stake MATIC tokens to earn rewards and access premium features.
+- Stake GAS tokens to earn rewards and access premium features.
 - Participate in platform governance by voting on proposals.
 
 ---

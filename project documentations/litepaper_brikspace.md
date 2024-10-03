@@ -40,7 +40,7 @@ Brikspace is an innovative platform that integrates blockchain technology to add
    - Every property listed on Brikspace is verified on the blockchain, ensuring that all information is transparent, immutable, and secure. This process includes the integration of Encumbrance Certificates (EC) to validate property ownership and prevent disputes.
 
 3. **Smart Contracts**:
-   - Transactions on Brikspace are governed by smart contracts, which automatically execute agreements based on predefined conditions. This not only speeds up transactions but also minimizes human errors and ensures compliance with agreed-upon terms.
+   - Transactions on Brikspace are governed by smart contracts, which autoGASally execute agreements based on predefined conditions. This not only speeds up transactions but also minimizes human errors and ensures compliance with agreed-upon terms.
 
 4. **Tokenization of Real Estate**:
    - Brikspace enables the tokenization of real estate assets, allowing for fractional ownership. This lowers the barrier to entry for investors, making real estate investment more inclusive and accessible to a global audience.
@@ -76,7 +76,7 @@ The global real estate market presents a significant opportunity for innovation:
    - Buyers browse through the blockchain-verified listings using AI-driven search tools that match properties to their specific preferences. The platform facilitates direct communication between buyers and sellers, enabling transparent negotiations.
 
 ### **3. Smart Contract Execution**
-   - Once terms are agreed upon, a smart contract is generated. This contract outlines the conditions of the transaction and automatically executes the agreement once all conditions are met, ensuring a secure and efficient process.
+   - Once terms are agreed upon, a smart contract is generated. This contract outlines the conditions of the transaction and autoGASally executes the agreement once all conditions are met, ensuring a secure and efficient process.
 
 ### **4. Ownership Tokenization**
    - Upon completion of the transaction, the buyer receives ownership tokens that represent their stake in the property. These tokens are stored on the blockchain, providing a secure and immutable record of ownership. Investors can trade or hold these tokens as part of their investment portfolio.
