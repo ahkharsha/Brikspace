@@ -166,8 +166,8 @@ For any inquiries or support, feel free to reach out:
 ## 📄 **Documentation**
 
 For more detailed information, please refer to the project whitepaper, deck, litepaper, and tokenomics:  
-**📄 [Brikspace Documents]()**
+**📄 [Brikspace Documents](https://drive.google.com/drive/folders/1XJPWyQf_-190R9aYsCLOREGzciitqLDj?usp=sharing)**
 
 ---
 
-*Made with ❤️ by The Code Warriors team.*
+*Made with ❤️ by team CryptoVentureInnovators.*
